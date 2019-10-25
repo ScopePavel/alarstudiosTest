@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0451D1E2360B1A20069F003 /* AirportsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451D1D2360B1A20069F003 /* AirportsAssembly.m */; };
+		C0451DB72361F6040069F003 /* AiroportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DB62361F6040069F003 /* AiroportCell.m */; };
+		C0451DBC236204810069F003 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DBB236204810069F003 /* NetworkManager.m */; };
+		C0451DC0236208730069F003 /* AirportsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DBF236208730069F003 /* AirportsModel.m */; };
+		C0451DC6236211890069F003 /* AirportsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DC5236211890069F003 /* AirportsDetailViewController.m */; };
+		C0451DC8236211970069F003 /* AirportsDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0451DC7236211970069F003 /* AirportsDetail.storyboard */; };
+		C0451DCB236211C90069F003 /* AirportsDetailAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DCA236211C90069F003 /* AirportsDetailAssembly.m */; };
+		C0451DD12362DE540069F003 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DD02362DE540069F003 /* LoginViewController.m */; };
+		C0451DD32362DE5B0069F003 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0451DD22362DE5B0069F003 /* Login.storyboard */; };
+		C0451DD62362DE6F0069F003 /* LoginAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C0451DD52362DE6F0069F003 /* LoginAssembly.m */; };
+		C05474452360A061001CD704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05474442360A061001CD704 /* AppDelegate.m */; };
+		C05474482360A061001CD704 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05474472360A061001CD704 /* SceneDelegate.m */; };
+		C054744B2360A061001CD704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C054744A2360A061001CD704 /* ViewController.m */; };
+		C054744E2360A061001CD704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C054744C2360A061001CD704 /* Main.storyboard */; };
+		C05474502360A062001CD704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C054744F2360A062001CD704 /* Assets.xcassets */; };
+		C05474532360A062001CD704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05474512360A062001CD704 /* LaunchScreen.storyboard */; };
+		C05474562360A062001CD704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05474552360A062001CD704 /* main.m */; };
+		C05474622360A505001CD704 /* AirportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05474612360A505001CD704 /* AirportsViewController.m */; };
+		C05474642360A51C001CD704 /* Airports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05474632360A51C001CD704 /* Airports.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0451D1A2360AE400069F003 /* Assembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assembly.h; sourceTree = "<group>"; };
+		C0451D1C2360B1A20069F003 /* AirportsAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportsAssembly.h; sourceTree = "<group>"; };
+		C0451D1D2360B1A20069F003 /* AirportsAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportsAssembly.m; sourceTree = "<group>"; };
+		C0451DB52361F6040069F003 /* AiroportCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AiroportCell.h; sourceTree = "<group>"; };
+		C0451DB62361F6040069F003 /* AiroportCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AiroportCell.m; sourceTree = "<group>"; };
+		C0451DBA236204810069F003 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		C0451DBB236204810069F003 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		C0451DBE236208730069F003 /* AirportsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportsModel.h; sourceTree = "<group>"; };
+		C0451DBF236208730069F003 /* AirportsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportsModel.m; sourceTree = "<group>"; };
+		C0451DC4236211890069F003 /* AirportsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportsDetailViewController.h; sourceTree = "<group>"; };
+		C0451DC5236211890069F003 /* AirportsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportsDetailViewController.m; sourceTree = "<group>"; };
+		C0451DC7236211970069F003 /* AirportsDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AirportsDetail.storyboard; sourceTree = "<group>"; };
+		C0451DC9236211C90069F003 /* AirportsDetailAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportsDetailAssembly.h; sourceTree = "<group>"; };
+		C0451DCA236211C90069F003 /* AirportsDetailAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportsDetailAssembly.m; sourceTree = "<group>"; };
+		C0451DCF2362DE540069F003 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C0451DD02362DE540069F003 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C0451DD22362DE5B0069F003 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C0451DD42362DE6F0069F003 /* LoginAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAssembly.h; sourceTree = "<group>"; };
+		C0451DD52362DE6F0069F003 /* LoginAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAssembly.m; sourceTree = "<group>"; };
+		C05474402360A061001CD704 /* alarstudiosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarstudiosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05474432360A061001CD704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C05474442360A061001CD704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C05474462360A061001CD704 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C05474472360A061001CD704 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C05474492360A061001CD704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C054744A2360A061001CD704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C054744D2360A061001CD704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C054744F2360A062001CD704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05474522360A062001CD704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05474542360A062001CD704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05474552360A062001CD704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05474602360A505001CD704 /* AirportsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportsViewController.h; sourceTree = "<group>"; };
+		C05474612360A505001CD704 /* AirportsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportsViewController.m; sourceTree = "<group>"; };
+		C05474632360A51C001CD704 /* Airports.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Airports.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C054743D2360A061001CD704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0451D1B2360B1870069F003 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C0451D1C2360B1A20069F003 /* AirportsAssembly.h */,
+				C0451D1D2360B1A20069F003 /* AirportsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		C0451DB42361F5830069F003 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DB52361F6040069F003 /* AiroportCell.h */,
+				C0451DB62361F6040069F003 /* AiroportCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C0451DB82362043F0069F003 /* ServiseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DBD236208380069F003 /* Model */,
+				C0451DB92362045A0069F003 /* NetworkManager */,
+			);
+			path = ServiseLayer;
+			sourceTree = "<group>";
+		};
+		C0451DB92362045A0069F003 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DBA236204810069F003 /* NetworkManager.h */,
+				C0451DBB236204810069F003 /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		C0451DBD236208380069F003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DBE236208730069F003 /* AirportsModel.h */,
+				C0451DBF236208730069F003 /* AirportsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0451DC1236211460069F003 /* AirportsDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DC22362115D0069F003 /* Assembly */,
+				C0451DC3236211660069F003 /* View */,
+			);
+			path = AirportsDetailModule;
+			sourceTree = "<group>";
+		};
+		C0451DC22362115D0069F003 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DC9236211C90069F003 /* AirportsDetailAssembly.h */,
+				C0451DCA236211C90069F003 /* AirportsDetailAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		C0451DC3236211660069F003 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DC4236211890069F003 /* AirportsDetailViewController.h */,
+				C0451DC5236211890069F003 /* AirportsDetailViewController.m */,
+				C0451DC7236211970069F003 /* AirportsDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0451DCC236222250069F003 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C0451DCD2362DE290069F003 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DCF2362DE540069F003 /* LoginViewController.h */,
+				C0451DD02362DE540069F003 /* LoginViewController.m */,
+				C0451DD22362DE5B0069F003 /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0451DCE2362DE2E0069F003 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DD42362DE6F0069F003 /* LoginAssembly.h */,
+				C0451DD52362DE6F0069F003 /* LoginAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		C05474372360A061001CD704 = {
+			isa = PBXGroup;
+			children = (
+				C05474422360A061001CD704 /* alarstudiosTest */,
+				C05474412360A061001CD704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C05474412360A061001CD704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05474402360A061001CD704 /* alarstudiosTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05474422360A061001CD704 /* alarstudiosTest */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DB82362043F0069F003 /* ServiseLayer */,
+				C054745C2360A33D001CD704 /* PresentationLayer */,
+				C05474432360A061001CD704 /* AppDelegate.h */,
+				C05474442360A061001CD704 /* AppDelegate.m */,
+				C05474462360A061001CD704 /* SceneDelegate.h */,
+				C05474472360A061001CD704 /* SceneDelegate.m */,
+				C05474492360A061001CD704 /* ViewController.h */,
+				C054744A2360A061001CD704 /* ViewController.m */,
+				C054744C2360A061001CD704 /* Main.storyboard */,
+				C054744F2360A062001CD704 /* Assets.xcassets */,
+				C05474512360A062001CD704 /* LaunchScreen.storyboard */,
+				C05474542360A062001CD704 /* Info.plist */,
+				C05474552360A062001CD704 /* main.m */,
+			);
+			path = alarstudiosTest;
+			sourceTree = "<group>";
+		};
+		C054745C2360A33D001CD704 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DCC236222250069F003 /* New Group */,
+				C0451D1A2360AE400069F003 /* Assembly.h */,
+				C054745D2360A3AB001CD704 /* LoginModule */,
+				C0451DC1236211460069F003 /* AirportsDetailModule */,
+				C054745E2360A458001CD704 /* AirportsModule */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		C054745D2360A3AB001CD704 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				C0451DCE2362DE2E0069F003 /* Assembly */,
+				C0451DCD2362DE290069F003 /* View */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		C054745E2360A458001CD704 /* AirportsModule */ = {
+			isa = PBXGroup;
+			children = (
+				C0451D1B2360B1870069F003 /* Assembly */,
+				C054746A2360AB91001CD704 /* View */,
+			);
+			path = AirportsModule;
+			sourceTree = "<group>";
+		};
+		C054746A2360AB91001CD704 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C05474602360A505001CD704 /* AirportsViewController.h */,
+				C05474612360A505001CD704 /* AirportsViewController.m */,
+				C05474632360A51C001CD704 /* Airports.storyboard */,
+				C0451DB42361F5830069F003 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C054743F2360A061001CD704 /* alarstudiosTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05474592360A062001CD704 /* Build configuration list for PBXNativeTarget "alarstudiosTest" */;
+			buildPhases = (
+				C054743C2360A061001CD704 /* Sources */,
+				C054743D2360A061001CD704 /* Frameworks */,
+				C054743E2360A061001CD704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alarstudiosTest;
+			productName = alarstudiosTest;
+			productReference = C05474402360A061001CD704 /* alarstudiosTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05474382360A061001CD704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = pavelPavel;
+				TargetAttributes = {
+					C054743F2360A061001CD704 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = C054743B2360A061001CD704 /* Build configuration list for PBXProject "alarstudiosTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05474372360A061001CD704;
+			productRefGroup = C05474412360A061001CD704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C054743F2360A061001CD704 /* alarstudiosTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C054743E2360A061001CD704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05474532360A062001CD704 /* LaunchScreen.storyboard in Resources */,
+				C05474502360A062001CD704 /* Assets.xcassets in Resources */,
+				C0451DD32362DE5B0069F003 /* Login.storyboard in Resources */,
+				C0451DC8236211970069F003 /* AirportsDetail.storyboard in Resources */,
+				C05474642360A51C001CD704 /* Airports.storyboard in Resources */,
+				C054744E2360A061001CD704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C054743C2360A061001CD704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C054744B2360A061001CD704 /* ViewController.m in Sources */,
+				C0451DB72361F6040069F003 /* AiroportCell.m in Sources */,
+				C0451DCB236211C90069F003 /* AirportsDetailAssembly.m in Sources */,
+				C05474452360A061001CD704 /* AppDelegate.m in Sources */,
+				C0451DC6236211890069F003 /* AirportsDetailViewController.m in Sources */,
+				C05474562360A062001CD704 /* main.m in Sources */,
+				C0451D1E2360B1A20069F003 /* AirportsAssembly.m in Sources */,
+				C0451DD62362DE6F0069F003 /* LoginAssembly.m in Sources */,
+				C05474482360A061001CD704 /* SceneDelegate.m in Sources */,
+				C0451DD12362DE540069F003 /* LoginViewController.m in Sources */,
+				C0451DC0236208730069F003 /* AirportsModel.m in Sources */,
+				C0451DBC236204810069F003 /* NetworkManager.m in Sources */,
+				C05474622360A505001CD704 /* AirportsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C054744C2360A061001CD704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C054744D2360A061001CD704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C05474512360A062001CD704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05474522360A062001CD704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05474572360A062001CD704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C05474582360A062001CD704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C054745A2360A062001CD704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alarstudiosTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alarstudiosTest.alarstudiosTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C054745B2360A062001CD704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alarstudiosTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alarstudiosTest.alarstudiosTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C054743B2360A061001CD704 /* Build configuration list for PBXProject "alarstudiosTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05474572360A062001CD704 /* Debug */,
+				C05474582360A062001CD704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05474592360A062001CD704 /* Build configuration list for PBXNativeTarget "alarstudiosTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C054745A2360A062001CD704 /* Debug */,
+				C054745B2360A062001CD704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05474382360A061001CD704 /* Project object */;
+}
